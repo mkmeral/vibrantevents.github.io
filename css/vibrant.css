@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'akiraBold';
+  src: url('../assets/fonts/Akira Super Bold.ttf'); 
+}
+
+.blurred-bg {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.bold-text {
+  font-family: akiraBold;
+}
+
+.white-on-hover:hover {
+  color: #fff !important;
+}
